@@ -1,0 +1,1 @@
+cmd_drivers/onedram/onedram.ko := /home/chris/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/chris/Desktop/Kernel/scripts/module-common.lds --build-id -o drivers/onedram/onedram.ko drivers/onedram/onedram.o drivers/onedram/onedram.mod.o

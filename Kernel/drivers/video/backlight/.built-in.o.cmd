@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/built-in.o :=  /home/chris/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/video/backlight/built-in.o drivers/video/backlight/lcd.o drivers/video/backlight/backlight.o drivers/video/backlight/nt39411b_bl.o drivers/video/backlight/mdnie_pwm_bl.o drivers/video/backlight/cmc623_pwm_bl.o 

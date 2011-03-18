@@ -1,0 +1,1 @@
+cmd_drivers/modemctl/modemctl.ko := /home/chris/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/chris/Desktop/Kernel/scripts/module-common.lds --build-id -o drivers/modemctl/modemctl.ko drivers/modemctl/modemctl.o drivers/modemctl/modemctl.mod.o

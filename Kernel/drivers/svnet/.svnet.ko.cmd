@@ -1,0 +1,1 @@
+cmd_drivers/svnet/svnet.ko := /home/chris/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/chris/Desktop/Kernel/scripts/module-common.lds --build-id -o drivers/svnet/svnet.ko drivers/svnet/svnet.o drivers/svnet/svnet.mod.o

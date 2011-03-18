@@ -1,0 +1,1 @@
+cmd_drivers/video/logo/built-in.o :=  /home/chris/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/video/logo/built-in.o drivers/video/logo/logo.o drivers/video/logo/logo_linux_mono.o drivers/video/logo/logo_linux_vga16.o drivers/video/logo/logo_linux_clut224.o 
